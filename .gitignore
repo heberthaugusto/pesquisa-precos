@@ -1,0 +1,5 @@
+lojas.json
+EXECUTAR.bat
+*.xlsx
+!exemplos/*.xlsx
+__pycache__/
