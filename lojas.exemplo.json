@@ -1,0 +1,25 @@
+[
+  {
+    "id": "LOJA_A",
+    "cabecalhos": ["LOJA A"],
+    "regra_preco": "primeiro",
+    "indisponivel_sem": "btn btn-buy"
+  },
+  {
+    "id": "LOJA_B",
+    "cabecalhos": ["LOJA B"],
+    "regra_preco": "primeiro"
+  },
+  {
+    "id": "LOJA_C",
+    "cabecalhos": ["LOJA C"],
+    "regra_preco": "primeiro",
+    "requer_login": true,
+    "url_login": "https://www.exemplo-loja-c.com.br/login"
+  },
+  {
+    "id": "LOJA_D",
+    "cabecalhos": ["LOJA D"],
+    "regra_preco": "maior_dos_dois_primeiros"
+  }
+]
